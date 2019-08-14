@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Xt_Bestsellers</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Ability to assign store specific bestseller/featured product.</summary>
+    <description>This module will allow the E-Commerce administrator to choose store specific different bestseller or featured product and can show those products on home page or any specific CMS page for individual store.</description>
+    <notes>This is a stable version and recommended to install after taking a db backup.</notes>
+    <authors><author><name>Rik Sen</name><user>pmgr</user><email>pm@hire-developer.co.uk</email></author></authors>
+    <date>2012-12-18</date>
+    <time>12:51:18</time>
+    <contents><target name="magecommunity"><dir name="Xt"><dir name="Bestsellers"><dir name="Block"><dir name="Adminhtml"><dir name="Bestsellers"><dir name="Edit"><file name="Form.php" hash="8441eded8c2dedf5112d88329f113d50"/><dir name="Tab"><file name="Grid.php" hash="9eed27e93c0cce31e1ee547a28975dc7"/><file name="Store.php" hash="baf54a4860572343874d635741e86618"/></dir><file name="Tabs.php" hash="cdb36833b1c5ae5da3bb8405b2819e06"/></dir><file name="Edit.php" hash="dde9725fd67adb4c7f334659d0562183"/><file name="Grid.php" hash="6158f6fe20a32cd788f90f3dc22db0a6"/></dir><file name="Bestsellers.php" hash="128949e8b2aa091f6917416a6c3c8885"/></dir></dir><dir name="Helper"><file name="Data.php" hash="1658725b23f0b49629f0f440359fbf56"/></dir><dir name="Model"><file name="Bestsellers.php" hash="62db608e99b4925ccd6a7cdaaeb21d27"/><file name="Grid.php" hash="b93593e31f585f99e5840f0f4016dc58"/><dir name="Mysql4"><dir name="Bestsellers"><file name="Collection.php" hash="36c670f05d3f93bc396ce01792d54e39"/></dir><file name="Bestsellers.php" hash="14423f5fd70528bf15a581ed1c3d7349"/><dir name="Grid"><file name="Collection.php" hash="0db66b29ae77945aaef1a572f34d84dc"/></dir><file name="Grid.php" hash="9f148584990c0474a039a7b42f06e6b7"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="BestsellersController.php" hash="c128fe1fd18668ff91abb2272df0eb99"/></dir></dir><dir name="etc"><file name="config.xml" hash="30523f422a8be60ad3c7d22ce4a0d295"/></dir><dir name="sql"><dir name="bestsellers_setup"><file name="mysql4-install-0.1.0.php" hash="dde03e0ca03d1cc54081d5361902a500"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Xt_Bestsellers.xml" hash="ebb637084f8709bc35dfe981d144c402"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="bestsellers.xml" hash="a8426d83498a9853d3ff3f3e5d8df540"/></dir><dir name="template"><dir name="bestsellers"><file name="stores.phtml" hash="6606b32bed9f6d2fe0bd6a1c4703b237"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="bestsellers"><file name="stores.phtml" hash="6606b32bed9f6d2fe0bd6a1c4703b237"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
