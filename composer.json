@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Xt_Bestsellers",
+    "name": "OpenMageModuleFostering\/Xt_Bestsellers",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
-    "description": "Ability to assign store specific bestseller/featured product.",
+    "description": "Ability to assign store specific bestseller\/featured product.",
     "authors": [
-    {
-        "name": "Rik Sen",
-        "email": "pm@hire-developer.co.uk"
-    }
-],
+        {
+            "name": "Rik Sen",
+            "email": "pm@hire-developer.co.uk"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
